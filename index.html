@@ -1,39 +1,95 @@
 <!DOCTYPE html>
-<html lang="en-UK">
-    <title>Wundaz Home</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .service {
+            margin: 2rem auto;
+            max-width: 800px;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to [Your Company Name]</h1>
+        <p>Your Partner for Recruitment, Payroll, Umbrella Services, Management Consultancy, and Training</p>
+    </header>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <nav>
+        <a href="#recruitment">Recruitment</a>
+        <a href="#payroll">Payroll</a>
+        <a href="#umbrella">Umbrella Services</a>
+        <a href="#management-consultancy">Management Consultancy</a>
+        <a href="#training">Training</a>
+    </nav>
 
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-  </head>
-  <header class="header">
-    <div class="middle-section">
-      <img class="Wundazlogo" src="Wundazlogo.svg">
-      <p>WUNDAZ</p>
-    </div>
-  </header>
-
-    <nav class="sidebar">
-        <div class="sidebar-link">
-          <img src="icons/home.svg">
-          <div>Home</div>
-        </div>
-        <div class="sidebar-link">
-          <img src="icons/explore.svg">
-          <div>Explore</div>
-        </div>
-        <div class="sidebar-link">
-          <img src="icons/library.svg">
-          <div>Library</div>
-        </div>
-      </nav>
-
-   <main>
-    <p>WUNDAZ is recruitment agency_</p>
-   </main>
+  <main>
+        <section id="recruitment" class="service">
+            <h2>Recruitment</h2>
+            <p>We connect businesses with top talent to help them succeed. Whether you're hiring for entry-level or executive roles, our recruitment specialists ensure the perfect match.</p>
+        </section>
+        <section id="payroll" class="service">
+            <h2>Payroll</h2>
+            <p>Our payroll services simplify and streamline the payment process, ensuring accuracy and compliance for your business.</p>
+        </section>
+        <section id="umbrella" class="service">
+            <h2>Umbrella Services</h2>
+            <p>Flexible umbrella services designed to meet the needs of contractors and freelancers, ensuring seamless financial management.</p>
+        </section>
+        <section id="management-consultancy" class="service">
+            <h2>Management Consultancy</h2>
+            <p>Transform your business with our expert management consultancy services. We provide tailored solutions to drive growth and efficiency.</p>
+        </section>
+        <section id="training" class="service">
+            <h2>Training</h2>
+            <p>Enhance your team's skills with our professional training programs. We offer courses in leadership, technical skills, and more.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Wundaz Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
 </html>
