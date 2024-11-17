@@ -10,82 +10,76 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
+            color: #333;
         }
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #001f4d; /* Dark Blue */
+            color: white;
             padding: 1rem 0;
             text-align: center;
         }
         nav {
-            background-color: #444;
+            background-color: #003366; /* Medium Blue */
+            padding: 0.5rem 0;
             display: flex;
             justify-content: center;
-            padding: 0.5rem 0;
         }
         nav a {
             color: white;
             margin: 0 1rem;
             text-decoration: none;
+            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
         }
         section {
-            padding: 2rem;
             text-align: center;
-        }
-        .service {
-            margin: 2rem auto;
-            max-width: 800px;
-            padding: 1rem;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
         }
         footer {
             text-align: center;
             padding: 1rem;
             background-color: #333;
-            color: #fff;
-            margin-top: 2rem;
+            color: white;
+        }
+        .service-link {
+            display: inline-block;
+            margin: 1rem;
+            padding: 1rem 2rem;
+            background-color: #003366; /* Medium Blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .service-link:hover {
+            background-color: #001f4d; /* Darker Blue */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to [Your Company Name]</h1>
-        <p>Your Partner for Recruitment, Payroll, Umbrella Services, Management Consultancy, and Training</p>
+        <h1>Welcome to Wundaz</h1>
+        <p>Your Partner for Professional Services</p>
     </header>
-
     <nav>
-        <a href="#recruitment">Recruitment</a>
-        <a href="#payroll">Payroll</a>
-        <a href="#umbrella">Umbrella Services</a>
-        <a href="#management-consultancy">Management Consultancy</a>
-        <a href="#training">Training</a>
+        <a href="recruitment.html">Recruitment</a>
+        <a href="payroll.html">Payroll</a>
+        <a href="umbrella.html">Umbrella Solution</a>
+        <a href="consultancy.html">Management Consultancy</a>
+        <a href="optimisation.html">Business Optimisation</a>
+        <a href="training.html">Training</a>
     </nav>
-
-  <main>
-        <section id="recruitment" class="service">
-            <h2>Recruitment</h2>
-            <p>We connect businesses with top talent to help them succeed. Whether you're hiring for entry-level or executive roles, our recruitment specialists ensure the perfect match.</p>
-        </section>
-        <section id="payroll" class="service">
-            <h2>Payroll</h2>
-            <p>Our payroll services simplify and streamline the payment process, ensuring accuracy and compliance for your business.</p>
-        </section>
-        <section id="umbrella" class="service">
-            <h2>Umbrella Services</h2>
-            <p>Flexible umbrella services designed to meet the needs of contractors and freelancers, ensuring seamless financial management.</p>
-        </section>
-        <section id="management-consultancy" class="service">
-            <h2>Management Consultancy</h2>
-            <p>Transform your business with our expert management consultancy services. We provide tailored solutions to drive growth and efficiency.</p>
-        </section>
-        <section id="training" class="service">
-            <h2>Training</h2>
-            <p>Enhance your team's skills with our professional training programs. We offer courses in leadership, technical skills, and more.</p>
+    <main>
+        <section>
+            <h2>Explore Our Services</h2>
+            <a href="recruitment.html" class="service-link">Recruitment</a>
+            <a href="payroll.html" class="service-link">Payroll</a>
+            <a href="umbrella.html" class="service-link">Umbrella Solution</a>
+            <a href="consultancy.html" class="service-link">Management Consultancy</a>
+            <a href="optimisation.html" class="service-link">Business Optimisation</a>
+            <a href="training.html" class="service-link">Training</a>
         </section>
     </main>
     <footer>
